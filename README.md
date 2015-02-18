@@ -4,10 +4,19 @@ uilang is a dead simple programming language for web designers. With uilang, you
 
 ## Getting started
 
-The first thing to do is to include `uilang.js` on your page. [Download](http://uilang.com/lib/production/uilang.js) the minified version (1KB) and insert it anywhere in your HTML:
+Download the node module with npm:
+```
+npm i --save uilang
+```
 
+You can use browserify to include the 1kb-sized javascript:
+```javascript
+var uilang = require('uilang');
+```
+
+or using a copy task and insert it to your html:
 ```html
-<script src=uilang.js></script>
+<script src="path/to/uilang.js"></script>
 ```
 You're now ready to write some uilang. Your code should be inserted in a `<code>` element, preferably at the very end of your page (just before `</body>`). The syntax looks like this:
 
