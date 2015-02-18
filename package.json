@@ -1,0 +1,25 @@
+{
+  "public": true,
+  "name": "uilang",
+  "version": "1.0.1",
+  "description": "A minimal, UI-focused programming language for web designers.",
+  "main": "production/uilang.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:danielditgens/uilang.git"
+  },
+  "keywords": [
+    "uilang"
+  ],
+  "author": "Benjamin De Cock",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Daniel Ditgens",
+      "email": "daniel@ditgens.net"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/bendc/uilang/issues"
+  }
+}
